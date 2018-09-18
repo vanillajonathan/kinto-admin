@@ -48,7 +48,7 @@
     "react": "^16.5.2",
     "react-breadcrumbs": "^2.1.6",
     "react-codemirror2": "^5.0.1",
-    "react-dom": "^16.5.1",
+    "react-dom": "^16.5.2",
     "react-jsonschema-form": "^1.0.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
