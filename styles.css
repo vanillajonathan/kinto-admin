@@ -7445,16 +7445,8 @@ table.record-list td.load-more {
   padding: 0;
 }
 
-.attachment-info .attachment-attributes {
-  display: flex;
-  align-content: stretch;
-  align-items: end;
-}
-
 .attachment-info table {
   margin-bottom: 0;
-  flex-grow: 1;
-  display: block; /* flex does not support display:table on items. */
 }
 
 .attachment-info .table-condensed > tbody > tr > td {
@@ -7462,16 +7454,21 @@ table.record-list td.load-more {
   text-overflow: ellipsis;
 }
 
+.attachment-action input[type=button] {
+  margin-top: -1em;
+}
+
 .attachment-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 150px;
-  max-height: 150px;
+  position: absolute;
   text-align: center;
+  right: 3.2em;
+  width: 125px;
+  height: 125px;
   background: #fff;
   border: 1px solid #ddd;
-  margin: 10px;
 }
 
 .attachment-img img {
