@@ -7101,21 +7101,12 @@ div.CodeMirror-dragcursors {
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
 html, body {
-  background: #F6F4EC;
-}
-
-body {
-  color: #333;
-  background: #F6F4EC;
+  background: #fafbfc;
 }
 
 h1 {
   font-family: Ubuntu, Calibri, Arial, sans-serif;
   font-size: 2.2em;
-}
-
-.main {
-  background: #F6F4EC;
 }
 
 .sidebar {
@@ -7140,7 +7131,6 @@ h1 {
 }
 
 .content {
-  background: #F6F4EC;
   padding-top: 3.3em;
 }
 
@@ -7179,7 +7169,8 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  background: #D1CCB8;
+  background: #24292e;
+  color: white;
   padding: .2em 1.15em;
   z-index: 999;
 }
@@ -7233,26 +7224,6 @@ table.record-list th {
 table.record-list tbody.loading td {
   background: rgba(220, 220, 220, .15);
   color: #777;
-}
-
-table.record-list tr.unsynced {
-  background: repeating-linear-gradient(
-    45deg,
-    #fcf8e3,
-    #fcf8e3 10px,
-    #eee 10px,
-    #eee 20px
-  );
-}
-
-table.record-list tr.conflicting {
-  background: repeating-linear-gradient(
-    45deg,
-    #fcf8e3,
-    #fcf8e3 10px,
-    #FFC8C7 10px,
-    #FFC8C7 20px
-  );
 }
 
 table.record-list td:not(.actions) {
